@@ -1,0 +1,481 @@
+
+ body {
+    background: #000;
+ }
+
+.container {
+   background-image: url('/img/fondo.png') ;
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
+}
+
+
+.container-header__content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.container-header__nav {
+   margin-left: 160px;
+   margin-right: 150px;
+}
+
+.container-header__logo {
+  margin-top: -0.5rem;
+}
+
+.container-header__logo--img {
+   width: 176px;
+}
+
+.container-header__text {
+   display: flex;
+   align-items: center;
+   margin-right: 30px;
+   gap: 25px;
+   margin-top: -0.4rem;
+}
+
+.container-header__spanish {
+   padding: 4px 32px;
+   border: 1px solid #fff;
+}
+
+.container-header__btn {
+   text-decoration: none;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   font-size: 1rem;
+   color: #fff;
+}
+
+.container-header__in {
+   padding: 7px 20px;
+   background: red;
+   border-radius: 7px;
+}
+
+.container-header__inicio {
+   text-decoration: none;
+   color: #fff;
+}
+
+
+/*------------------------------------*/
+
+.row-text {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   margin-top: 180px;
+   text-align: center;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.row-text__h2 {
+   color: #fff;
+   font-size: 3rem;
+   font-weight: 900;
+}
+
+.row-text__p {
+   font-size: 1.5rem;
+   font-weight: 400;
+   margin: 1rem 0 0;
+   color: #fff;
+}
+
+.form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   margin: 1rem 0 0;
+}
+
+.form-inp {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   width: 100%;
+   margin: 1rem auto 0;
+   max-width: 36.625rem;
+   margin-bottom: 180px;
+}
+
+.form-inp__email {
+   width: 100%;
+   padding: 1.5rem 1rem 0.5rem;
+   background-color: rgba(255, 255, 255, 0.589);
+   filter: opacity(0.5);
+   border: 2px solid #312626;
+   font-size: 20px;
+   border-radius: 5px;
+}
+
+.form-inp__inscription {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1.1rem 1rem 1rem;
+   font-size: 25px;
+   background-color: red;
+   border-radius: 10px;
+}
+
+/*----------lineas*/
+
+.linea{
+   width: 100%;
+   height: 0.5rem;
+   bottom: -0.5rem;
+   background-color: rgb(35,35,35);
+}
+
+/*SECTION MAIN ---------------------*/
+
+.global-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: calc( 83.33333333333334% - 6rem );
+   margin: auto;
+   margin-top: 70px;
+   margin-bottom: 70px;
+}
+
+.global-section__parraf {
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   color: #fff;
+   padding-right: 0.375rem;
+}
+
+.global-section__title {
+   font-size: 3rem;
+   font-weight: 700;
+   line-height: 2;
+}
+
+.global-section__description {
+   font-size: 1.5rem;
+   font-weight: 400;
+}
+
+
+.global-section__img {
+   width: 100%;
+}
+
+.global-section__figure {
+   position: relative;
+}
+
+.global-section__video {
+   z-index: -1;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+   max-width: 73%;
+   max-height: 54%;
+   position: absolute;
+   top: 46%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+/*section2 MaiN-----------------*/
+
+.global-load__next {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+}
+
+.global-load__img {
+   margin: auto;
+}
+
+.global-load__parraf {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-right: 41px;
+   color: #fff;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.global-load__title{
+   margin: auto;
+   font-size: 3rem;
+   font-weight: 700;
+}
+
+.global-load__description {
+   font-size: 1.5rem;
+}
+
+/*SECTION 3 ----------------------*/
+
+.global-row {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: calc( 83.33333333333334% - 6rem );
+   margin: auto;
+   margin-top: 70px;
+   margin-bottom: 70px;
+}
+
+.global-row__parraf {
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   color: #fff;
+   padding-right: 0.375rem;
+}
+
+.global-row__title {
+   font-size: 3rem;
+   font-weight: 700;
+   line-height: 2;
+}
+
+.global-row__description {
+   font-size: 1.5rem;
+   font-weight: 400;
+}
+
+.global-row__img {
+   width: 100%;
+}
+
+.global-row__figure {
+   position: relative;
+}
+
+.global-row__video {
+   z-index: -1;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+   max-width: 63%;
+   max-height: 47%;
+   position: absolute;
+   top: 34%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+/*SECTION 4 -----------------*/
+
+.global-look {
+   margin: 50px 20px;
+}
+
+.global-look__baby {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.global-look__img {
+   width: 570px;
+}
+
+.global-look__parraf {
+   display: flex;
+   flex-direction: column;
+   color: #fff;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   width: 38%;
+   padding-left: 1rem;
+}
+
+.global-look__title {
+   font-size: 2rem;
+   line-height: 6rem;
+}
+
+.global-look__dev {
+   font-size: 1.5rem;
+}
+
+/*PARTE DE LAS INTERROGATES*/
+
+.global-questions__link{
+   margin-bottom: 3rem;
+}
+.global-questions__items {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.global-questions__title {
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   color: #fff;
+   text-align: center;
+   font-size: 2.5rem;
+   padding: 1em;
+}
+
+.global-questions__dtls {
+   display: block;
+   padding: 16px;
+   margin-bottom: -20px;
+   
+}
+
+.global-questions__sm {
+   display: flex;
+   align-items: center;
+   overflow: hidden;
+   font-size: 1.5rem;
+   padding-left: 1.1rem;
+   background: #312626;
+   border: 1px solid #fff;
+   width: 70rem;
+   height: 5rem;
+}
+
+.global-questions__p {
+   max-width: 70rem;
+   border: 1px solid #fff;
+   margin-top: 3px;
+   margin-bottom: 5px;
+   font-size: 1.5rem;
+   padding-left: 1.1rem;
+   background: #312626;
+   border: 1px solid #fff;
+   padding: 1rem;
+}
+
+/*----------------------------------------*/
+
+.global-questions__suscribt {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+   color: #fff;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.global-questions__fut {
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+
+.global-questions__inp {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   margin-top: 16px;
+}
+
+.global-questions__email {
+   width: 28rem;
+   height: 3.5rem;
+   background: #1e1717;
+   border-radius: 3px;
+   border: 1px solid #fff4f4;
+   color: #fff;
+}
+
+.global-questions__btn {
+   text-decoration: none;
+   color: #fff;
+   font-size: 1.3rem;
+   padding: 1rem;
+   border-radius: 3px;
+   background: red;
+}
+
+/*FOOOTERR-------------------------------------------*/
+
+
+.default {
+   margin: 72px 10rem;
+}
+.defaul-cache__tlf {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   padding: 1rem;
+   color: #fff;
+   font-size: 1rem;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.defaul-cache__a {
+   color: #fff;
+}
+
+.defaul-link__cvt {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 15px;
+   padding-left: 20px;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.defaul-link__role {
+   color: #fff;
+}
+
+
+
+.menu-container {
+   position: relative;
+   display: inline-block;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.toggle-btn {
+   background-color: #121212a5;
+   color: #fff;
+   border: none;
+   margin: 10px 20px;
+   padding: 10px;
+   cursor: pointer;
+}
+
+.dropdown-menu {
+   display: none;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   background-color: #fff;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   list-style-type: none;
+   padding: 0;
+   margin: 0 20px;
+}
+
+.dropdown-menu li {
+   margin: 10px 20px;
+   text-align: center;
+}
+
+.dropdown-menu li a {
+   text-decoration: none;
+   color: #333;
+}
+
+.menu-container:hover .dropdown-menu {
+   display: block;
+}
+
+.mrc {
+   margin-top: 20px;
+   color: #fff;
+   margin: 10px 20px;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
